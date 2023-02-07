@@ -1,0 +1,10 @@
+C:\Users\mateus.fribeiro1\Documents\Visual Studio 2019\Projetosistemati106\APPcomponentes\EmpresaABC\bin\Debug\EmpresaABC.exe.config
+C:\Users\mateus.fribeiro1\Documents\Visual Studio 2019\Projetosistemati106\APPcomponentes\EmpresaABC\bin\Debug\EmpresaABC.exe
+C:\Users\mateus.fribeiro1\Documents\Visual Studio 2019\Projetosistemati106\APPcomponentes\EmpresaABC\bin\Debug\EmpresaABC.pdb
+C:\Users\mateus.fribeiro1\Documents\Visual Studio 2019\Projetosistemati106\APPcomponentes\EmpresaABC\obj\Debug\EmpresaABC.csproj.AssemblyReference.cache
+C:\Users\mateus.fribeiro1\Documents\Visual Studio 2019\Projetosistemati106\APPcomponentes\EmpresaABC\obj\Debug\EmpresaABC.Form1.resources
+C:\Users\mateus.fribeiro1\Documents\Visual Studio 2019\Projetosistemati106\APPcomponentes\EmpresaABC\obj\Debug\EmpresaABC.Properties.Resources.resources
+C:\Users\mateus.fribeiro1\Documents\Visual Studio 2019\Projetosistemati106\APPcomponentes\EmpresaABC\obj\Debug\EmpresaABC.csproj.GenerateResource.cache
+C:\Users\mateus.fribeiro1\Documents\Visual Studio 2019\Projetosistemati106\APPcomponentes\EmpresaABC\obj\Debug\EmpresaABC.csproj.CoreCompileInputs.cache
+C:\Users\mateus.fribeiro1\Documents\Visual Studio 2019\Projetosistemati106\APPcomponentes\EmpresaABC\obj\Debug\EmpresaABC.exe
+C:\Users\mateus.fribeiro1\Documents\Visual Studio 2019\Projetosistemati106\APPcomponentes\EmpresaABC\obj\Debug\EmpresaABC.pdb
