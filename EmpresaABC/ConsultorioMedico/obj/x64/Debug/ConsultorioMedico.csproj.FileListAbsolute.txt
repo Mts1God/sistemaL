@@ -1,0 +1,16 @@
+C:\Users\mateus.fribeiro1\Documents\Visual Studio 2019\Projetosistemati1061\EmpresaABC\ConsultorioMedico\bin\x64\Debug\ConsultorioMedico.exe.config
+C:\Users\mateus.fribeiro1\Documents\Visual Studio 2019\Projetosistemati1061\EmpresaABC\ConsultorioMedico\bin\x64\Debug\ConsultorioMedico.exe
+C:\Users\mateus.fribeiro1\Documents\Visual Studio 2019\Projetosistemati1061\EmpresaABC\ConsultorioMedico\bin\x64\Debug\ConsultorioMedico.pdb
+C:\Users\mateus.fribeiro1\Documents\Visual Studio 2019\Projetosistemati1061\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.csproj.AssemblyReference.cache
+C:\Users\mateus.fribeiro1\Documents\Visual Studio 2019\Projetosistemati1061\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.frmConsulta.resources
+C:\Users\mateus.fribeiro1\Documents\Visual Studio 2019\Projetosistemati1061\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.frmLogin.resources
+C:\Users\mateus.fribeiro1\Documents\Visual Studio 2019\Projetosistemati1061\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.frmMenuPrincipal.resources
+C:\Users\mateus.fribeiro1\Documents\Visual Studio 2019\Projetosistemati1061\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.frmSplash.resources
+C:\Users\mateus.fribeiro1\Documents\Visual Studio 2019\Projetosistemati1061\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.Properties.Resources.resources
+C:\Users\mateus.fribeiro1\Documents\Visual Studio 2019\Projetosistemati1061\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.csproj.GenerateResource.cache
+C:\Users\mateus.fribeiro1\Documents\Visual Studio 2019\Projetosistemati1061\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.csproj.CoreCompileInputs.cache
+C:\Users\mateus.fribeiro1\Documents\Visual Studio 2019\Projetosistemati1061\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.exe
+C:\Users\mateus.fribeiro1\Documents\Visual Studio 2019\Projetosistemati1061\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.pdb
+C:\Users\mateus.fribeiro1\Documents\Visual Studio 2019\Projetosistemati1061\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.frmMedicos.resources
+C:\Users\mateus.fribeiro1\Documents\Visual Studio 2019\Projetosistemati1061\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.frmPacientes.resources
+C:\Users\mateus.fribeiro1\Documents\Visual Studio 2019\Projetosistemati1061\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.btnExames.resources

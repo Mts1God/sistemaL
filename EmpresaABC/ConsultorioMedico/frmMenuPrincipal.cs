@@ -17,9 +17,39 @@ namespace ConsultorioMedico
             InitializeComponent();
         }
 
-        private void frmMenuPrincipal_Load(object sender, EventArgs e)
+        private void btnConsultas_Click(object sender, EventArgs e)
         {
+            frmConsulta abrir = new frmConsulta();
+            abrir.Show();
+            this.Hide();
+        }
 
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            frmLogin voltar = new frmLogin();
+            voltar.Show();
+            this.Hide();
+        }
+
+        private void btnMedicos_Click(object sender, EventArgs e)
+        {
+            frmMedicos abrir = new frmMedicos();
+            abrir.Show();
+            this.Hide();
+        }
+
+        private void btnPacientes_Click(object sender, EventArgs e)
+        {
+            frmPacientes abrir = new frmPacientes();
+            abrir.Show();
+            this.Hide();
+        }
+
+        private void btnExames_Click(object sender, EventArgs e)
+        {
+            btnExames abrir = new btnExames();
+            abrir.Show();
+            this.Hide();
         }
     }
 }

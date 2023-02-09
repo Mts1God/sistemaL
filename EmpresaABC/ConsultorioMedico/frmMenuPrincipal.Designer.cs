@@ -30,119 +30,146 @@ namespace ConsultorioMedico
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMenuPrincipal));
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.btnConsultas = new System.Windows.Forms.Button();
+            this.btnMedicos = new System.Windows.Forms.Button();
+            this.btnPacientes = new System.Windows.Forms.Button();
+            this.btnAgenda = new System.Windows.Forms.Button();
+            this.btnConvenios = new System.Windows.Forms.Button();
+            this.btnExames = new System.Windows.Forms.Button();
+            this.btnVoltar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btnConsultas
             // 
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(49, 49);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(196, 201);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Consulta";
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnConsultas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConsultas.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConsultas.Image = ((System.Drawing.Image)(resources.GetObject("btnConsultas.Image")));
+            this.btnConsultas.Location = new System.Drawing.Point(53, 39);
+            this.btnConsultas.Name = "btnConsultas";
+            this.btnConsultas.Size = new System.Drawing.Size(196, 201);
+            this.btnConsultas.TabIndex = 0;
+            this.btnConsultas.Text = "Consultas";
+            this.btnConsultas.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnConsultas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnConsultas.UseVisualStyleBackColor = true;
+            this.btnConsultas.Click += new System.EventHandler(this.btnConsultas_Click);
             // 
-            // button2
+            // btnMedicos
             // 
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(286, 49);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(196, 201);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Médicos";
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnMedicos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMedicos.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMedicos.Image = ((System.Drawing.Image)(resources.GetObject("btnMedicos.Image")));
+            this.btnMedicos.Location = new System.Drawing.Point(290, 39);
+            this.btnMedicos.Name = "btnMedicos";
+            this.btnMedicos.Size = new System.Drawing.Size(196, 201);
+            this.btnMedicos.TabIndex = 1;
+            this.btnMedicos.Text = "Médicos";
+            this.btnMedicos.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnMedicos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnMedicos.UseVisualStyleBackColor = true;
+            this.btnMedicos.Click += new System.EventHandler(this.btnMedicos_Click);
             // 
-            // button3
+            // btnPacientes
             // 
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(535, 49);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(196, 201);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Pacientes";
-            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnPacientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPacientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPacientes.Image = ((System.Drawing.Image)(resources.GetObject("btnPacientes.Image")));
+            this.btnPacientes.Location = new System.Drawing.Point(526, 39);
+            this.btnPacientes.Name = "btnPacientes";
+            this.btnPacientes.Size = new System.Drawing.Size(196, 201);
+            this.btnPacientes.TabIndex = 2;
+            this.btnPacientes.Text = "Pacientes";
+            this.btnPacientes.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnPacientes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnPacientes.UseVisualStyleBackColor = true;
+            this.btnPacientes.Click += new System.EventHandler(this.btnPacientes_Click);
             // 
-            // button4
+            // btnAgenda
             // 
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(49, 288);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(196, 201);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Exames";
-            this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnAgenda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAgenda.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgenda.Image = ((System.Drawing.Image)(resources.GetObject("btnAgenda.Image")));
+            this.btnAgenda.Location = new System.Drawing.Point(526, 270);
+            this.btnAgenda.Name = "btnAgenda";
+            this.btnAgenda.Size = new System.Drawing.Size(196, 201);
+            this.btnAgenda.TabIndex = 5;
+            this.btnAgenda.Text = "Agenda";
+            this.btnAgenda.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnAgenda.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnAgenda.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // btnConvenios
             // 
-            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.Location = new System.Drawing.Point(286, 288);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(196, 201);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Convênio";
-            this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnConvenios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConvenios.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConvenios.Image = ((System.Drawing.Image)(resources.GetObject("btnConvenios.Image")));
+            this.btnConvenios.Location = new System.Drawing.Point(290, 270);
+            this.btnConvenios.Name = "btnConvenios";
+            this.btnConvenios.Size = new System.Drawing.Size(196, 201);
+            this.btnConvenios.TabIndex = 4;
+            this.btnConvenios.Text = "Convênios";
+            this.btnConvenios.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnConvenios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnConvenios.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // btnExames
             // 
-            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
-            this.button6.Location = new System.Drawing.Point(535, 288);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(196, 201);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "Agenda";
-            this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnExames.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExames.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExames.Image = ((System.Drawing.Image)(resources.GetObject("btnExames.Image")));
+            this.btnExames.Location = new System.Drawing.Point(53, 270);
+            this.btnExames.Name = "btnExames";
+            this.btnExames.Size = new System.Drawing.Size(196, 201);
+            this.btnExames.TabIndex = 3;
+            this.btnExames.Text = "Exames";
+            this.btnExames.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnExames.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnExames.UseVisualStyleBackColor = true;
+            this.btnExames.Click += new System.EventHandler(this.btnExames_Click);
             // 
-            // button7
+            // btnVoltar
             // 
-            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
-            this.button7.Location = new System.Drawing.Point(615, 508);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(116, 42);
-            this.button7.TabIndex = 6;
-            this.button7.Text = "Voltar";
-            this.button7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button7.UseVisualStyleBackColor = true;
+            this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVoltar.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltar.Image")));
+            this.btnVoltar.Location = new System.Drawing.Point(624, 484);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(98, 58);
+            this.btnVoltar.TabIndex = 6;
+            this.btnVoltar.Text = "&Voltar";
+            this.btnVoltar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // frmMenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 561);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(780, 557);
+            this.Controls.Add(this.btnVoltar);
+            this.Controls.Add(this.btnAgenda);
+            this.Controls.Add(this.btnConvenios);
+            this.Controls.Add(this.btnExames);
+            this.Controls.Add(this.btnPacientes);
+            this.Controls.Add(this.btnMedicos);
+            this.Controls.Add(this.btnConsultas);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "frmMenuPrincipal";
-            this.Text = "frmMenuPrincipal";
-            this.Load += new System.EventHandler(this.frmMenuPrincipal_Load);
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Consultório Médico";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button btnConsultas;
+        private System.Windows.Forms.Button btnMedicos;
+        private System.Windows.Forms.Button btnPacientes;
+        private System.Windows.Forms.Button btnAgenda;
+        private System.Windows.Forms.Button btnConvenios;
+        private System.Windows.Forms.Button btnExames;
+        private System.Windows.Forms.Button btnVoltar;
     }
 }
