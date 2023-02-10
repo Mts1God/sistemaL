@@ -29,11 +29,13 @@ namespace ConsultorioMedico
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSplash));
             this.pctLogo = new System.Windows.Forms.PictureBox();
             this.lblPorcentagem = new System.Windows.Forms.Label();
             this.pgbCarregando = new System.Windows.Forms.ProgressBar();
             this.lblCarregando = new System.Windows.Forms.Label();
+            this.tmrSplash = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pctLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -74,6 +76,12 @@ namespace ConsultorioMedico
             this.lblCarregando.TabIndex = 3;
             this.lblCarregando.Text = "Carregando...";
             // 
+            // tmrSplash
+            // 
+            this.tmrSplash.Enabled = true;
+            this.tmrSplash.Interval = 1000;
+            this.tmrSplash.Tick += new System.EventHandler(this.tmrSplash_Tick);
+            // 
             // frmSplash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -101,5 +109,6 @@ namespace ConsultorioMedico
         private System.Windows.Forms.Label lblPorcentagem;
         private System.Windows.Forms.ProgressBar pgbCarregando;
         private System.Windows.Forms.Label lblCarregando;
+        private System.Windows.Forms.Timer tmrSplash;
     }
 }

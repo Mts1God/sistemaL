@@ -14,3 +14,5 @@ C:\Users\mateus.fribeiro1\Documents\Visual Studio 2019\Projetosistemati1061\Empr
 C:\Users\mateus.fribeiro1\Documents\Visual Studio 2019\Projetosistemati1061\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.frmMedicos.resources
 C:\Users\mateus.fribeiro1\Documents\Visual Studio 2019\Projetosistemati1061\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.frmPacientes.resources
 C:\Users\mateus.fribeiro1\Documents\Visual Studio 2019\Projetosistemati1061\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.btnExames.resources
+C:\Users\mateus.fribeiro1\Documents\Visual Studio 2019\Projetosistemati1061\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.frmEspecialidades.resources
+C:\Users\mateus.fribeiro1\Documents\Visual Studio 2019\Projetosistemati1061\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.frmPesquisar.resources
